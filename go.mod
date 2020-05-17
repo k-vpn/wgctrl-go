@@ -1,4 +1,4 @@
-module golang.zx2c4.com/wireguard/wgctrl
+module github.com/k-vpn/wgctrl-go
 
 go 1.13
 

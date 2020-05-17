@@ -3,8 +3,8 @@
 package wgctrl
 
 import (
-	"golang.zx2c4.com/wireguard/wgctrl/internal/wginternal"
-	"golang.zx2c4.com/wireguard/wgctrl/internal/wguser"
+	"github.com/k-vpn/wgctrl-go/internal/wginternal"
+	"github.com/k-vpn/wgctrl-go/internal/wguser"
 )
 
 // newClients configures wginternal.Clients for systems which only support

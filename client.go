@@ -3,8 +3,8 @@ package wgctrl
 import (
 	"os"
 
-	"golang.zx2c4.com/wireguard/wgctrl/internal/wginternal"
-	"golang.zx2c4.com/wireguard/wgctrl/wgtypes"
+	"github.com/k-vpn/wgctrl-go/internal/wginternal"
+	"github.com/k-vpn/wgctrl-go/wgtypes"
 )
 
 // Expose an identical interface to the underlying packages.

@@ -11,8 +11,8 @@ import (
 	"github.com/mdlayher/netlink"
 	"github.com/mdlayher/netlink/nlenc"
 	"golang.org/x/sys/unix"
-	"golang.zx2c4.com/wireguard/wgctrl/internal/wglinux/internal/wgh"
-	"golang.zx2c4.com/wireguard/wgctrl/wgtypes"
+	"github.com/k-vpn/wgctrl-go/internal/wglinux/internal/wgh"
+	"github.com/k-vpn/wgctrl-go/wgtypes"
 )
 
 // TODO(mdlayher): netlink message chunking with large configurations.

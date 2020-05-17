@@ -10,10 +10,10 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/mikioh/ipaddr"
-	"golang.zx2c4.com/wireguard/wgctrl"
-	"golang.zx2c4.com/wireguard/wgctrl/internal/wginternal"
-	"golang.zx2c4.com/wireguard/wgctrl/internal/wgtest"
-	"golang.zx2c4.com/wireguard/wgctrl/wgtypes"
+	"github.com/k-vpn/wgctrl-go"
+	"github.com/k-vpn/wgctrl-go/internal/wginternal"
+	"github.com/k-vpn/wgctrl-go/internal/wgtest"
+	"github.com/k-vpn/wgctrl-go/wgtypes"
 )
 
 func TestIntegrationClient(t *testing.T) {

@@ -5,9 +5,9 @@ package wgctrl
 import (
 	"os"
 
-	"golang.zx2c4.com/wireguard/wgctrl/internal/wginternal"
-	"golang.zx2c4.com/wireguard/wgctrl/internal/wgopenbsd"
-	"golang.zx2c4.com/wireguard/wgctrl/internal/wguser"
+	"github.com/k-vpn/wgctrl-go/internal/wginternal"
+	"github.com/k-vpn/wgctrl-go/internal/wgopenbsd"
+	"github.com/k-vpn/wgctrl-go/internal/wguser"
 )
 
 // Since the OpenBSD implementation and the code to interact with it are both

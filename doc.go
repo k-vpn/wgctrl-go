@@ -2,7 +2,7 @@
 //
 // For more information on WireGuard, please see https://www.wireguard.com/.
 //
-//   go get golang.zx2c4.com/wireguard/wgctrl
+//   go get github.com/k-vpn/wgctrl-go
 //
 //
 // Overview
@@ -26,4 +26,4 @@
 // the configuration of existing WireGuard devices. Operations such as creating
 // WireGuard devices, or applying IP addresses to those devices, are out of scope
 // for this package.
-package wgctrl // import "golang.zx2c4.com/wireguard/wgctrl"
+package wgctrl // import "github.com/k-vpn/wgctrl-go"
